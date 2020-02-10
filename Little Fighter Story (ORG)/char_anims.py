@@ -9,10 +9,10 @@ class Characters(pygame.sprite.Sprite):
     def __init__(self, name="Rex", pos=(0,0)):
         pygame.sprite.Sprite.__init__(self)
         super().__init__()
-        self.sprite = pygame.image.load("sys/firzen_0.bmp")
+        self.sprite = pygame.image.load("sys/Rex_0.bmp")
         self.shadow = pygame.image.load("sys/shadow.png")
         self.head = pygame.image.load("sys/Rex_f.bmp")
-        self.defualt = ["sys/aiden_0.bmp"]
+        self.defualt = ["sys/Rex_0.bmp"]
 
         self.frame = 1
         self.width, self.height = (79, 79)
@@ -296,7 +296,7 @@ character.rect.x = 20
 character.rect.y = 110
 
 character2 = Characters()
-character2.__init__self__("sys/freeze_0.bmp", 80, 80, 8)
+character2.__init__self__("sys/Rex_0.bmp", 80, 80, 8)
 character2.rect.x = 200
 character2.rect.y = 110
 
